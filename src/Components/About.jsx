@@ -56,7 +56,7 @@ function About() {
             <a className="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
           </div>
         </div>
-        /** tabs **/
+        {/** tabs **/}
         <div className="row">
           <div className="about-tabs">
             <span
@@ -73,9 +73,9 @@ function About() {
             </span>
           </div>
         </div>
-        /** skills tab **/
+        {/* skills tab */}
         <div className="row">
-          <div className="skills tab-content">
+          <div className="skills tab-content active">
             <div className="row">
               <div className="skill-item">
                 <p>JavaScript</p>
@@ -124,6 +124,8 @@ function About() {
                 </div>
               </div>
             </div>
+
+            {/* experience tab*/}
             <div className="row">
               <div className="experience tab-content">
                 <div className="row">
@@ -189,6 +191,7 @@ function About() {
             </div>
           </div>
         </div>
+        {/** education tab **/}
         <div className="row">
           <div className="education tab-content">
             <div className="row">
