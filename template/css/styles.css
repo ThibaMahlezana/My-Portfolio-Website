@@ -1,0 +1,86 @@
+* {}
+
+body {}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+}
+
+/*** Home Section ***/
+.home {
+    height: 100vh;
+}
+
+.home > .container {
+    display: flex;
+}
+
+.h-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.h-right > img {
+    width: 100%;
+}
+
+/*** About Section ***/
+.about {
+}
+
+.about .title {
+    text-align: center;
+}
+
+.about > .container {
+    
+}
+
+.a-body {
+    display: flex;
+}
+
+.a-left {
+    flex: 1;
+    background-color: red;
+}
+
+.a-right {
+    flex: 1;
+    background-color: blue;
+}
+
+/*** Contact Section ***/
+.contact {}
+
+.contact .container {}
+
+.c-body {
+    display: flex;
+}
+
+.c-left {
+    flex: 1;
+}
+
+.c-right {
+    flex: 2;
+    flex-direction: column;
+    display: flex;
+}
+
+/*** Footer Section ***/
+.footer {}
