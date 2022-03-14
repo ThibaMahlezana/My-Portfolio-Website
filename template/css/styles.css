@@ -58,18 +58,24 @@ body {}
 
 .a-left {
     flex: 1;
-    background-color: red;
 }
 
 .a-right {
     flex: 1;
-    background-color: blue;
+}
+
+.skill {
+    background-color: #f7f8f9;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5px;
+    color: #5b6b7a;
 }
 
 /*** Portfolio Section ***/
 .portfolio {
     padding: 60px;
-    background-color: #f7f8f9;;
+    background-color: #f7f8f9;
 }
 
 .portfolio .title {
@@ -88,30 +94,25 @@ body {}
 }
 
 .portfolio-item {
-    width: 300px;
-    height: 450px;
-    background-color: #fff;
-    margin: 5px 15px;
-    border-radius: 5px;
 }
 
-.portfolio-item-img {
-    height: 75%;
-    overflow: hidden;
-    border-radius: 5px;
-}
-.portfolio-item-img img {
-    width: 100%;
-    border-radius: 5px;
+.portfolio-item .card {
+    margin: 10px;
+    border: none;
 }
 
-.portfolio-item-desc {
-    padding: 10px;
-}
 
-.portfolio-item-desc button {
-    font-size: 25px;
+.portfolio-item .btn {
+    background: #8fa7be;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
     border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 /*** Contact Section ***/
