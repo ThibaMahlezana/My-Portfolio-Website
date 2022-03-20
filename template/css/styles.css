@@ -47,21 +47,14 @@ body {}
 .about .title {
     text-align: center;
 }
-
-.about > .container {
-    
+ 
+.a-img img {
+    width: 100%;
+    margin: 40px 0;
 }
 
-.a-body {
-    display: flex;
-}
-
-.a-left {
-    flex: 1;
-}
-
-.a-right {
-    flex: 1;
+.a-desc {
+    padding: 40px 0;
 }
 
 .skill {
