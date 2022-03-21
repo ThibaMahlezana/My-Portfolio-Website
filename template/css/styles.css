@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 body {}
@@ -10,7 +11,61 @@ body {}
     height: 100%;
 }
 
-.header {
+header {
+    display: block;
+    background: #e9e8e6;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    z-index: 997;
+    padding: 0 10px;
+}
+
+header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header .logo a {
+    text-decoration: none;
+    color: #5b6b7a;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+    padding: 10px 0 10px 28px;
+}
+
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    color:#45505b;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+    text-decoration: none;
 }
 
 .title  {
@@ -26,6 +81,7 @@ body {}
 /*** Home Section ***/
 .home {
     height: 100vh;
+    background-color: #e9e8e6;;
 }
 
 .home > .container {
