@@ -1,0 +1,76 @@
+/*** Home Section ***/
+.home {
+    height: 100vh;
+    background-color: #e9e8e6;;
+}
+
+.home .row {
+    height: 100%;
+}
+
+.home .container {
+}
+
+.home .row {
+    margin: 0;
+    padding: 0;
+}
+
+.h-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.h-left .intro {
+    color: #5b6b7a;
+    font-size: 30px;
+}
+
+.h-left .name {
+    font-size: 50px;
+    color: #687786;
+}
+
+.h-left .role {
+    margin: 10px 0;
+    color: #687786;
+}
+
+.h-btns {
+    margin-top: 20px;
+}
+
+.h-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.h-right > img {
+    width: 100%;
+    position: absolute;
+}
+
+.bg {
+    clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+    background-color: #8fa7be;
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.h-button {
+    background: #8fa7be;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 500;
+}
