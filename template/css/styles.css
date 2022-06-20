@@ -183,7 +183,8 @@ header .logo a {
 }
 
 .a-img img {
-    width: 120%;
+    width: 100%;
+    border-radius: 5px;
 }
 
 .a-desc {
@@ -223,6 +224,10 @@ header .logo a {
     font-size: 40px;
     width: 20%;
     text-align: center;
+}
+
+.skill .icon img {
+    width: 45px;
 }
 
 .skill .title {
