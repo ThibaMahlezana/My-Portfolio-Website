@@ -1,0 +1,14 @@
+/*** Footer Section ***/
+.footer {
+    text-align: center;
+    background-color: #f7f8f9;
+    color: #45505b;
+    padding: 30px 0;
+}
+.footer h2 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-top: 15px;
+}
