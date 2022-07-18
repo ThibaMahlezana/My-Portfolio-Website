@@ -26,7 +26,7 @@ export default function Home() {
         </div>
         <div className='col-6 h-right'>
           <div className="bg"></div>
-          <img src={bgImage}/>
+          <img alt='' src={bgImage}/>
         </div>
       </div>
     </div>
