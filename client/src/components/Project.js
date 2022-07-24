@@ -1,4 +1,7 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGlobe} from '@fortawesome/free-solid-svg-icons'
+import { FaGithub } from 'react-icons/fa';
 
 export default function Project({icon, title, description, github_link, live_link}) {
   return (
@@ -11,7 +14,12 @@ export default function Project({icon, title, description, github_link, live_lin
                 <div className="card-body">
                     <h5 className="card-title">{ title }</h5>
                     <p className="card-text">{ description }</p>
-                    <a href="#" className="btn btn-primary"><i class="fa-brands fa-github"></i> Github</a>
+                    <a href="#" className="btn btn-primary">
+                        <FontAwesomeIcon icon={faGlobe} /> Live
+                    </a>
+                    <a href="#" className="btn btn-primary">
+                        <FaGithub /> Github
+                    </a>
                 </div>
             </div>
         </div>

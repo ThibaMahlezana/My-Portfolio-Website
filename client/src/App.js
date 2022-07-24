@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import Header from './components/Header';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -25,10 +25,7 @@ function App() {
     <div>
       <Routes>
         <Route exact path="/" element={<Root />} />
-        {/* <Route path="/about" element={<About />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} /> */}
-        <Route path="projectDetails" element={<ProjectDetails />} />
+        <Route path="/projectDetails/" element={<ProjectDetails />} />
       </Routes>
       <Footer />
     </div>
