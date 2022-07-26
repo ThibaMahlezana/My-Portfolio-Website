@@ -41,9 +41,11 @@
     align-items: center;
 }
 
-.contact-item .desc {
-    line-height: 0.2rem;
+.contact-item .icon img {
+    width: 30px;
 }
+
+.contact-item .desc {}
 
 .c-right input {
     height: 44px;

@@ -1,6 +1,9 @@
 import React from 'react'
 import '../styles/global.css'
 import '../styles/contact.css'
+import locationIcon from '../images/icons/location-icon.svg'
+import mailIcon from '../images/icons/mail-icon.svg'
+import phoneIcon from '../images/icons/phone-icon.svg'
 
 export default function Contact() {
   return (
@@ -10,10 +13,10 @@ export default function Contact() {
           <p>You can contact me here</p>
       </div>
       <div className="row">
-        <div className="c-left col-4">
+        <div className="c-left col-sm-12 col-md-12 col-lg-4">
           <div className="contact-item">
               <div className="icon">
-                  <i className="fa-solid fa-location-dot"></i>
+                  <img alt="location" src={locationIcon} />
               </div>
               <div className="desc">
                   <h5>Location</h5>
@@ -22,7 +25,7 @@ export default function Contact() {
           </div>
           <div className="contact-item">
               <div className="icon">
-                  <i className="fa-solid fa-envelope"></i>
+                  <img alt="Email Address" src={mailIcon} />
               </div>
               <div className="desc">
                   <h5>Email</h5>
@@ -31,7 +34,7 @@ export default function Contact() {
           </div>
           <div className="contact-item">
               <div className="icon">
-                  <i className="fa-solid fa-phone"></i>
+                  <img alt="Phone" src={phoneIcon} />
               </div>
               <div className="desc">
                   <h5>Phone</h5>
@@ -39,7 +42,7 @@ export default function Contact() {
               </div>
           </div>
         </div>
-        <div className=" col-8 c-right">
+        <div className="c-right col-sm-12 col-md-12 col-lg-8">
             <input placeholder="Name" type="text"/>
             <input placeholder="Email" type="text"/>
             <textarea rows="3" placeholder="Message"></textarea>
