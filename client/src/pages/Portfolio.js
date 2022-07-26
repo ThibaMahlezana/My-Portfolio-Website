@@ -6,7 +6,7 @@ import Project from '../components/Project'
 
 export default function Portfolio() {
   return (
-    <div className="portfolio">
+    <div id="portfolio" className="portfolio">
         <div className="title">
             <h1>Portfolio</h1>
             <p>The projects I have worked on</p>

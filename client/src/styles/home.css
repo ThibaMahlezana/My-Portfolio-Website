@@ -1,7 +1,7 @@
 /*** Home Section ***/
 .home {
     height: 100vh;
-    background-color: #e9e8e6;;
+    background-color: #e9e8e6;
 }
 
 .home .row {
@@ -50,7 +50,7 @@
 }
 
 .h-right > img {
-    width: 100%;
+    width: 150%;
     position: absolute;
 }
 
@@ -68,9 +68,45 @@
     background: #8fa7be;
     border: 0;
     padding: 10px 35px;
-    color: #fff;
     transition: 0.4s;
     border-radius: 50px;
     font-size: large;
     font-weight: 500;
+    box-shadow: 0 0 25px 0 #fff;
 }
+.h-button:hover {
+    opacity: 0.7;
+    -webkit-animation: none;
+    animation: none;
+    text-decoration: none;
+}
+.h-button img {
+    width: 30px;
+}
+.h-button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.button-float {
+    -webkit-animation: float 1.5s linear alternate infinite;
+    animation: float 1.5s linear alternate infinite;
+  }
+  
+  @-webkit-keyframes float {
+    50% {
+      transform: translateY(-px);
+    }
+    100% {
+      transform: translateY(-18px);
+    }
+  }
+  
+  @keyframes float {
+    50% {
+      transform: translateY(-px);
+    }
+    100% {
+      transform: translateY(-18px);
+    }
+  }

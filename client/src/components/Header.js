@@ -1,58 +1,26 @@
-import React, { useState } from 'react'
-import { NavLink } from "react-router-dom";
+import React from 'react'
+import '../styles/global.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function Header() {
-  const [isOpen, setOpen] = useState(false);
   return (
-    <nav
-      className="navbar is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div className="container">
-        <div className="navbar-brand">
-            <a
-              role="button"
-              className={`navbar-burger burger ${isOpen && "is-active"}`}
-              aria-label="menu"
-              aria-expanded="false"
-              onClick={() => setOpen(!isOpen)}
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-          </div>
-          <NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/"
-              exact
-              >
-              Home
-          </NavLink>
-          <NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/about"
-            >
-              About
-          </NavLink>
-          <NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/portfolio"
-            >
-              Portfolio
-          </NavLink>
-          <NavLink
-              className="navbar-item"
-              activeClassName="is-active"
-              to="/contact"
-            >
-              Contact
-          </NavLink>
-      </div>
-    </nav>
+    <Navbar expand="md" className="header nav">
+      <Container>
+        <Navbar.Brand className="col-md-4 col-lg-6" href="#home">
+          <h4></h4>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="header-links col-md-4 col-lg-6">
+          <Nav className="me-auto">
+            <Nav.Link style={{color: '#8fa7be'}} className="nav-item" href="#home">Home</Nav.Link>
+            <Nav.Link style={{color: '#8fa7be'}} className="nav-item" href="#about">About</Nav.Link>
+            <Nav.Link style={{color: '#8fa7be'}} className="nav-item" href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link style={{color: '#8fa7be'}} className="nav-item" href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }

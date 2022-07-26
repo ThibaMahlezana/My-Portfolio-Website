@@ -7,7 +7,7 @@ import phoneIcon from '../images/icons/phone-icon.svg'
 
 export default function Contact() {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="title">
           <h1>Contact</h1>
           <p>You can contact me here</p>

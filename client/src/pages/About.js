@@ -7,7 +7,7 @@ import Skill from '../components/Skill';
 
 export default function About() {
   return (
-    <div className='about'>
+    <div id="about" className='about'>
       <div className='container'>
         <div className="title">
             <h1>About</h1>
