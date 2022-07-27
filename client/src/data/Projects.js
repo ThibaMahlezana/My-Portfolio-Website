@@ -20,7 +20,7 @@ const Projects = [
         "title": "Chat App",
         "description": "This is a react native photo sharing app more like instagram with chatting features live voice and video calling.",
         "github_link": "https://github.com/ThibaMahlezana/PhotoChat",
-        "live_link": "",
+        "live_link": "https://expo.dev/@adamluwo/projects/PhotoChat",
     },
     
     {
@@ -28,8 +28,8 @@ const Projects = [
         "icon": TiyePic,
         "title": "Tiye Website",
         "description": "This is a website for a software startup company. It is built using React JS and other web technologies like HTML5 and CSS3.",
-        "github_link": "",
-        "live_link": "",
+        "github_link": "https://github.com/ThibaMahlezana/Tiye-Website-in-React",
+        "live_link": "https://tiye-website.web.app/",
     },
     {
         "id": 4,
@@ -37,14 +37,14 @@ const Projects = [
         "title": "Biztweak Website",
         "description": "A web app for a cunsultation company. This website is built using PHP and MySQL Database",
         "github_link": "",
-        "live_link": "",
+        "live_link": "https://www.biztweak.org.za/",
     },
     {
         "id": 5,
         "icon": RobotPic,
         "title": "Trash Sorting Robot",
         "description": "This is an AI(Artificial Intelligence) powered robot to sort trash between paper, plastic and metal. Software was built using Python.",
-        "github_link": "",
+        "github_link": "https://github.com/ThibaMahlezana/Trash-sorting-Robot",
         "live_link": "",
     },
     {
@@ -52,7 +52,7 @@ const Projects = [
         "icon": NandiPic,
         "title": "Nandi Bot",
         "description": "This is an AI(Artificial Intelligence) powered basic chat bot called Nandi. It is built using Python",
-        "github_link": "",
+        "github_link": "https://github.com/ThibaMahlezana/Nandi-bot",
         "live_link": "",
     },
 ]

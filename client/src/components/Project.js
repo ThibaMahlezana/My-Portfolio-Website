@@ -14,12 +14,16 @@ export default function Project({icon, title, description, github_link, live_lin
                 <div className="card-body">
                     <h5 className="card-title">{ title }</h5>
                     <p className="card-text">{ description }</p>
-                    <a href="#" className="btn btn-primary">
+                    { live_link ? 
+                    <a href={live_link} className="btn btn-primary">
                         <FontAwesomeIcon icon={faGlobe} /> Live
-                    </a>
-                    <a href="#" className="btn btn-primary">
+                    </a> : ''
+                    }
+                    { github_link ? 
+                    <a href={github_link} className="btn btn-primary">
                         <FaGithub /> Github
-                    </a>
+                    </a> : ''
+                    }
                 </div>
             </div>
         </div>

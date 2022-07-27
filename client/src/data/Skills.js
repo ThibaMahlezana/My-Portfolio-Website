@@ -1,5 +1,6 @@
 import HTML5 from '../images/icons/w3_html5-icon.svg';
-// import CSS from '../images/icons/w3_css-icon.svg';
+import CSS_Icon from '../images/icons/css3-icon.svg';
+import Js_Icon from '../images/icons/js-icon.svg';
 import React_Icon from '../images/icons/reactjs-icon.svg'
 import Bootstrap_Icon from '../images/icons/getbootstrap-icon.svg'
 import NodeJs_Icon from '../images/icons/nodejs-icon.svg'
@@ -11,7 +12,7 @@ import TensorFlow_Icon from '../images/icons/tensorflow-icon.svg'
 import OpenCV_Icon from '../images/icons/opencv-icon.svg'
 import CPlusPlus_Icon from '../images/icons/Cplusplus-icon.svg'
 import Qt_Icon from '../images/icons/qtio-icon.svg'
-// import CMake_Icon from '../images/icons/cmake-icon.svg'
+import CMake_Icon from '../images/icons/cmake-icon.png'
 
 const FrontendSkills = [
     {
@@ -22,13 +23,13 @@ const FrontendSkills = [
     },
     {
         "id": 2,
-        "icon": "./images/icons/w3_css-icon.svg",
+        "icon": CSS_Icon,
         "title": "CSS3",
         "level": "Experienced"
     },
     {
         "id": 3,
-        "icon": "",
+        "icon": Js_Icon,
         "title": "Javascript",
         "level": "Experienced"
     },
@@ -106,7 +107,7 @@ const ExtraSkills = [
     },
     {
         "id": 5,
-        "icon": "images/icons/cmake-icon.svg",
+        "icon": CMake_Icon,
         "title": "CMake",
         "level": "Intermediate"
     },
